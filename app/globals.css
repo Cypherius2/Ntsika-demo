@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Cormorant Garamond', serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-bakery-black: #0A0A0A;
+  --color-bakery-gold: #C5A059;
+  --color-bakery-cream: #F5F2ED;
+  --color-bakery-brown: #2A1A1A;
+}
+
+@layer base {
+  body {
+    @apply bg-bakery-cream text-bakery-brown font-sans;
+  }
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}

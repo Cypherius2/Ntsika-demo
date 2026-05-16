@@ -1,0 +1,8 @@
+{
+  "name": "Insika Kitchen",
+  "description": "Premium Artisanal Bakery in Eswatini - Order custom treats and freshly baked goods.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
